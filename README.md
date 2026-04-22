@@ -1,2 +1,3 @@
 # Analysis-On-Air-Quality
-“This project analyzes air quality data using Python to explore pollutant trends, identify patterns across locations and time, and visualize environmental insights through interactive charts and statistical analysis.”
+“Analyzed air quality data using Python to identify pollution trends, dominant pollutants, and regional variations through data cleaning and exploratory analysis.
+Built an interactive Power BI dashboard with visualizations and filters to enable dynamic exploration of pollution patterns and support data-driven insights.”
