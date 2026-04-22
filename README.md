@@ -21,6 +21,7 @@ Min, Max, and Average pollutant values
 Last updated timestamps
 
 🎯 Objectives
+
 Analyze pollution levels across cities and states
 Compare different pollutant concentrations
 Identify high-risk regions
@@ -28,6 +29,7 @@ Detect trends and variations in air quality
 Provide meaningful insights using data visualization
 
 🛠️ Technologies Used
+
 Python 🐍
 Pandas – Data manipulation
 NumPy – Numerical computations
@@ -35,6 +37,7 @@ Matplotlib / Seaborn – Data visualization
 Jupyter Notebook – Development environment
 
 📊 Key Analysis Performed
+
 Data cleaning and preprocessing
 Handling missing values
 Exploratory Data Analysis (EDA)
@@ -43,6 +46,7 @@ Trend analysis of pollutants
 Visualization of pollution patterns
 
 📈 Insights & Findings
+
 Identified cities with the highest pollution levels
 Observed variation in pollutant concentration across regions
 Highlighted major pollutants affecting air quality
