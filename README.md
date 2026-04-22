@@ -1,126 +1,47 @@
-# 📊 Commodities Export Analysis to European Countries
+📊 Air Quality Analysis Project
+📌 Overview
 
-## 📌 Project Description
+Air pollution is a growing environmental and public health issue worldwide. This project focuses on analyzing air quality data collected from multiple monitoring stations across different regions to identify pollution trends and insights.
 
-This project analyzes commodity export data from India to European countries to uncover trends, evaluate performance, and generate actionable business insights. Using data visualization and modeling techniques, the project provides a comprehensive view of export quantity, revenue, and pricing patterns.
+🎯 Problem Statement
 
----
+Air quality monitoring is essential to:
 
-## 🎯 Objectives
+Identify highly polluted regions
+Track pollutant trends over time
+Support environmental policy decisions
 
-* Analyze total revenue, export quantity, and pricing trends
-* Identify top-performing commodities and countries
-* Understand revenue distribution and inefficiencies
-* Provide data-driven recommendations for business improvement
-* Enable better planning through trend analysis
+The dataset includes:
 
----
-
-## 📂 Data Source
-
-* **India Data Portal** (Commerce Domain)
-* Contains export data including commodity, country, quantity, value, and revenue
-
----
-
-## 🧾 Features of Dataset
-
-* Export Date
-* Country Name & Code
-* Region and Sub-region
-* Commodity Name & HS Code
-* Unit of Measurement
-* Quantity Exported
-* Value (INR)
-* Revenue (INR)
-
----
-
-## 🛠️ Tools & Technologies Used
-
-* **Excel** – Data cleaning and preprocessing
-* **Power BI** – Data modeling, DAX, and dashboard creation
-
----
-
-## 🔄 Data Preprocessing
-
-* Cleaned missing and inconsistent data
-* Standardized formats
-* Created calculated fields
-* Converted dataset into Fact and Dimension tables
-
----
-
-## 📊 Data Modeling & DAX
-
-* Built relationships between tables
-* Created key measures:
-
-  * Total Revenue
-  * Total Quantity
-  * Average Revenue per Unit
-  * Revenue Year-to-Date
-  * Monthly Revenue Trends
-
----
-
-## 📈 Dashboard & Visualizations
-
-The Power BI dashboard includes:
-
-* 📊 Stacked Bar Chart – Country-wise exports
-* 📉 Line Chart – Revenue trends over time
-* 🌍 Map Chart – Country-wise revenue distribution
-* 🥧 Pie Chart – Commodity category share
-* 📊 Clustered Column Chart – Revenue vs Quantity
-* 🔵 Scatter Plot – Commodity performance
-* 📋 Tables – Detailed revenue breakdown
-
----
-
-## 🔍 Key Insights
-
-### 📌 Descriptive Analysis
-
-* Total Revenue: ₹31.72M
-* Total Export Quantity: ~1.12M units
-* Revenue is concentrated in a few commodities
-* Netherlands is the highest export destination
-
-### 📌 Diagnostic Analysis
-
-* High-value commodities generate more revenue with lower volume
-* Low-value commodities increase volume but reduce efficiency
-* Pareto principle observed (major revenue from few commodities)
-
-### 📌 Predictive Insights
-
-* Revenue shows fluctuations due to pricing and demand
-* Export quantity remains relatively stable
-* Growth depends on high-value commodity focus
-
-### 📌 Prescriptive Insights
-
-* Focus on high-revenue commodities
-* Improve pricing strategies
-* Strengthen key markets (Netherlands, France, Germany)
-* Reduce low-performing products
-
----
-
-## ✅ Conclusion
-
-This project converts raw export data into a powerful decision-support system. It helps businesses shift focus from increasing export volume to maximizing revenue through smarter product and market strategies.
-
----
-
-## 🚀 Future Scope
-
-* Implement machine learning models for forecasting
-* Automate data updates
-* Add advanced analytics (trend prediction, pricing optimization)
-* Improve dashboard interactivity
+Country, State, City
+Monitoring station (Latitude & Longitude)
+Pollutant types (PM2.5, PM10, NO₂, etc.)
+Min, Max, and Average pollutant values
+Last updated timestamps
+🎯 Objectives
+Analyze pollution levels across cities and states
+Compare different pollutant concentrations
+Identify high-risk regions
+Detect trends and variations in air quality
+Provide meaningful insights using data visualization
+🛠️ Technologies Used
+Python 🐍
+Pandas – Data manipulation
+NumPy – Numerical computations
+Matplotlib / Seaborn – Data visualization
+Jupyter Notebook – Development environment
+📊 Key Analysis Performed
+Data cleaning and preprocessing
+Handling missing values
+Exploratory Data Analysis (EDA)
+Pollution comparison across cities/states
+Trend analysis of pollutants
+Visualization of pollution patterns
+📈 Insights & Findings
+Identified cities with the highest pollution levels
+Observed variation in pollutant concentration across regions
+Highlighted major pollutants affecting air quality
+Provided visual insights for better understanding of trends
 
 ---
 
